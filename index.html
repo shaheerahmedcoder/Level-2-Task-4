@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Blog</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>My Personal Blog</header>
+
+  <div class="filter">
+    <button class="active" onclick="filterPosts('all')">All</button>
+    <button onclick="filterPosts('Tech')">Tech</button>
+    <button onclick="filterPosts('Travel')">Travel</button>
+    <button onclick="filterPosts('Food')">Food</button>
+  </div>
+
+  <div class="container" id="postContainer"></div>
+
+  <div class="pagination" id="pagination"></div>
+
+<script src="./script.js"></script>
+</body>
+</html>
