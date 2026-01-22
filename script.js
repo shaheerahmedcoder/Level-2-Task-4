@@ -63,10 +63,7 @@
       currentPage = page;
       displayPosts(page);
     }
-    function goToPage(page) {
-      currentPage = page;
-      displayPosts(page);
-    }
+
 
     function filterPosts(category) {
       document.querySelectorAll('.filter button').forEach(btn => btn.classList.remove('active'));
