@@ -21,9 +21,6 @@
     let currentPage = 1;
     let filteredPosts = posts;
 
-    const postsPerPage = 4;
-    let currentPage = 1;
-    let filteredPosts = posts;
 
     function displayPosts(page) {
       const start = (page - 1) * postsPerPage;
